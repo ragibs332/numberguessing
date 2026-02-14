@@ -1,10 +1,16 @@
 // numberguessing
+<br>
 #include <stdio.h>
+<br>
 #include <stdlib.h>
+<br>
 #include <time.h>
+<br>
 
 int main() {
+<br>
     // Seed the random number generator with the current time
+    <br>
     srand(time(0));
 
     // Generate a random number between 1 and 100
